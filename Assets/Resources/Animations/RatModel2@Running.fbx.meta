@@ -1,0 +1,287 @@
+fileFormatVersion: 2
+guid: 51eccb9dbce20f94a940285d90a91eed
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Running
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'joint_Neck' has translation animation that
+      will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Running
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 13
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: RatModel2@Running(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Pelvis
+      parentName: RatModel2@Running(Clone)
+      position: {x: 0, y: 0.041406285, z: -0.008017258}
+      rotation: {x: -0.5522532, y: 0.44160745, z: -0.5522524, w: 0.44160685}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Spine01
+      parentName: joint_Pelvis
+      position: {x: -0.039361022, y: 3.2612801e-18, z: -8.739903e-18}
+      rotation: {x: 0, y: 0, z: 0.035982624, w: 0.99935246}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Spine02
+      parentName: joint_Spine01
+      position: {x: -0.047234487, y: -6.7723606e-17, z: -1.0458057e-17}
+      rotation: {x: 1.5879573e-25, y: -1.0629522e-16, z: 0.11969542, w: 0.99281067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Spine03
+      parentName: joint_Spine02
+      position: {x: -0.024404803, y: -8.8817837e-17, z: 1.874469e-17}
+      rotation: {x: -3.8163913e-17, y: -2.2261908e-16, z: -0.2590477, w: 0.96586454}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Neck
+      parentName: joint_Spine03
+      position: {x: -0.016765488, y: -0.0037561771, z: -5.1555518e-12}
+      rotation: {x: -0.00038649613, y: 0.0013076151, z: 0.14595656, w: 0.9892901}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Head
+      parentName: joint_Neck
+      position: {x: -0.026199667, y: 2.4424906e-17, z: -5.735026e-18}
+      rotation: {x: 0.05746936, y: -0.7047675, z: 0.05746936, w: 0.7047675}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Clavide_L
+      parentName: joint_Spine03
+      position: {x: -0.0017091247, y: -0.005224849, z: -0.0043474347}
+      rotation: {x: 0.026951417, y: -0.20351645, z: 0.6909812, w: 0.69310874}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Shoulder_L
+      parentName: joint_Clavide_L
+      position: {x: -0.007718857, y: 0.00589476, z: -0.010934353}
+      rotation: {x: 0.7957544, y: -0.050075557, z: 0.5495095, w: -0.24961305}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Elbow_L
+      parentName: joint_Shoulder_L
+      position: {x: -0.030833608, y: 0.004556905, z: 0.0009546651}
+      rotation: {x: 0.9976374, y: -0.03461074, z: -0.056211613, w: -0.019029135}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Wrist_L
+      parentName: joint_Elbow_L
+      position: {x: -0.022086872, y: -0.0011798006, z: 0.001615103}
+      rotation: {x: 0.006883174, y: -0.011889681, z: 0.10122582, w: 0.9947687}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Paw_L
+      parentName: joint_Wrist_L
+      position: {x: -0.021436771, y: -0.00010245322, z: 5.8027882e-18}
+      rotation: {x: -0.074100554, y: -0.70321345, z: -0.074100554, w: 0.70321345}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Clavide_R
+      parentName: joint_Spine03
+      position: {x: -0.0017088323, y: -0.005224739, z: 0.0043474296}
+      rotation: {x: -0.20351398, y: -0.026953058, z: -0.69310886, w: 0.6909818}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Shoulder_R
+      parentName: joint_Clavide_R
+      position: {x: 0.007718877, y: -0.005894604, z: 0.01093437}
+      rotation: {x: 0.79607254, y: -0.051018294, z: 0.5495264, w: -0.24836747}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Elbow_R
+      parentName: joint_Shoulder_R
+      position: {x: 0.03083346, y: -0.004556632, z: -0.00095469994}
+      rotation: {x: 0.99763757, y: -0.034534574, z: -0.056306954, w: -0.018873613}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Wrist_R
+      parentName: joint_Elbow_R
+      position: {x: 0.022086877, y: 0.0011795068, z: -0.0016152}
+      rotation: {x: 0.0059235496, y: -0.012203006, z: 0.100943804, w: 0.9947996}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Paw_R
+      parentName: joint_Wrist_R
+      position: {x: 0.021436872, y: 0.00010242962, z: -4.434871e-18}
+      rotation: {x: -0.074100554, y: -0.70321345, z: -0.074100554, w: 0.70321345}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Tail01
+      parentName: joint_Pelvis
+      position: {x: 0.050046477, y: -0.016539393, z: -6.8859053e-19}
+      rotation: {x: -0.013215685, y: 0.9999127, z: -6.2036217e-17, w: -6.041777e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Tail02
+      parentName: joint_Tail01
+      position: {x: -0.041675117, y: -1.3877642e-10, z: -5.1216083e-18}
+      rotation: {x: 6.45886e-18, y: 5.000161e-17, z: -0.083050415, w: 0.9965454}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Tail03
+      parentName: joint_Tail02
+      position: {x: -0.03580678, y: 0.0025187423, z: -4.530836e-18}
+      rotation: {x: 1.5990798e-17, y: -6.0384496e-17, z: -0.07785044, w: 0.99696505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Tail04
+      parentName: joint_Tail03
+      position: {x: -0.05462271, y: 0.0000000032818168, z: -6.8657546e-18}
+      rotation: {x: 0.2248732, y: 0.97438806, z: -4.5894548e-17, w: -7.3433574e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Hip_L
+      parentName: joint_Pelvis
+      position: {x: 0.0009284101, y: -0.008009183, z: -0.016584437}
+      rotation: {x: -0.0005024075, y: -0.080453284, z: 0.9962498, w: -0.031834107}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Knee_L
+      parentName: joint_Hip_L
+      position: {x: -0.03210645, y: -7.031353e-18, z: -0.0022952156}
+      rotation: {x: 0.9567631, y: 0.2866572, z: 0.03598362, w: -0.033724997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Ankle_L
+      parentName: joint_Knee_L
+      position: {x: -0.029073507, y: 1.3322676e-17, z: 1.9721522e-33}
+      rotation: {x: 0.49493685, y: 0.86819655, z: 0.03332724, w: -0.012710364}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Foot_L
+      parentName: joint_Ankle_L
+      position: {x: -0.013240874, y: 8.326672e-18, z: 1.4566127e-18}
+      rotation: {x: 1.6396496e-12, y: -3.1987967e-12, z: -0.45614347, w: 0.8899062}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Toes_L
+      parentName: joint_Foot_L
+      position: {x: -0.018070057, y: 5.551115e-19, z: 3.703737e-18}
+      rotation: {x: -0.06765433, y: -0.70386285, z: -0.06765433, w: 0.70386285}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Hip_R
+      parentName: joint_Pelvis
+      position: {x: 0.00092840235, y: -0.008009165, z: 0.0165844}
+      rotation: {x: -0.09819241, y: -0.0007225126, z: 0.021710575, w: 0.9949304}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Knee_R
+      parentName: joint_Hip_R
+      position: {x: 0.03210648, y: 0.00000005360198, z: 0.0022953}
+      rotation: {x: 0.9532239, y: 0.29767904, z: 0.038839318, w: -0.035257988}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Ankle_R
+      parentName: joint_Knee_R
+      position: {x: 0.029073473, y: -0.000000003915893, z: -5.995204e-17}
+      rotation: {x: 0.49158937, y: 0.8681358, z: 0.04852443, w: -0.048224505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Foot_R
+      parentName: joint_Ankle_R
+      position: {x: 0.013240861, y: 0.00000000279944, z: -1.7723638e-10}
+      rotation: {x: -0.000000042243272, y: 0.00000008473607, z: -0.45614332, w: 0.88990635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint_Toes_R
+      parentName: joint_Foot_R
+      position: {x: 0.018070083, y: -0.0000000039560706, z: -3.4136352e-10}
+      rotation: {x: -0.06765433, y: -0.70386285, z: -0.06765433, w: 0.70386285}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: joint_Pelvis
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

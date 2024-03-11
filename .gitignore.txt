@@ -1,0 +1,7 @@
+/Library/PackageCache/com.unity.cinemachine@2.6.3/Samples~
+/Assets/ExampleAssets/
+/Assets/"TextMesh Pro"/
+/Assets/TutorialInfo/
+/Logs/
+*.apk
+*.unitypackage
