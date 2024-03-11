@@ -1,3 +1,3 @@
 Full Playthrough:
 
-![YoutubePlaythrough](https://www.youtube.com/watch?v=0Z4UG5TWm00)
+[![Watch theYoutubePlaythroughvideo](https://img.youtube.com/vi/0Z4UG5TWm00/default.jpg)](https://youtu.be/0Z4UG5TWm00)
